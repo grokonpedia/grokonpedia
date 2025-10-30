@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'SourceSerif4';
+    src: URL('/SourceSerif4-Regular.ttf') format('truetype');
+}
+
+.version {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin-left: 10px;
+    padding: 0 12px;
+    font-size: 12px;
+}
+
+.main-title {
+    font-family: SourceSerif4;
+    font-size: 1.8rem;
+}
+
+h1, h2, h3 {
+    font-family: SourceSerif4;
+}
+
+#TableOfContents {
+    font-size: 0.85rem;
+}
