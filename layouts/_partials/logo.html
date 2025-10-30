@@ -1,0 +1,10 @@
+<link href="/custom.css" rel="stylesheet" />
+
+{{- if .Site.Params.header.showTitle | default true }}
+<a
+        class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 main-title"
+        rel="me"
+        href="{{ "" | relLangURL }}"
+>{{ .Site.Title | markdownify | emojify }}</a
+        > <small class="version">v{{ math.Rand | mul 20 | truncate 6 "" }}</small>
+{{- end }}
