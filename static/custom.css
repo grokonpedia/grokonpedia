@@ -23,3 +23,11 @@ h1, h2, h3 {
 #TableOfContents {
     font-size: 0.85rem;
 }
+
+.fact-checked {
+    opacity: 0.5;
+    font-size: 0.8rem;
+    display: block;
+    margin-bottom: 0.5rem;
+    filter: grayscale(100%);
+}

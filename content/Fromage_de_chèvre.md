@@ -1,6 +1,7 @@
 +++
 draft = false
 title = "Fromage de chèvre"
+type = "wiki"
 +++
 
 
