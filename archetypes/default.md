@@ -1,5 +1,6 @@
 +++
 date = '{{ .Date }}'
-draft = true
-title = '{{ replace .File.ContentBaseName "-" " " | title }}'
+draft = false
+title = '{{ replace .File.ContentBaseName "_" " " | title }}'
+type = "wiki"
 +++
