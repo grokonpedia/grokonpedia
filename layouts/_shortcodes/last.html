@@ -1,0 +1,7 @@
+{{ $all_pages := where .Site.RegularPages.ByTitle "Type" "wiki" }}
+
+<ul class="list-unstyled">
+    {{ range first 15 (sort $all_pages ".Lastmod" "desc") }}
+    <li><a href="{{.Permalink}}">{{.Title}}</a></li>
+    {{ end }}
+</ul>

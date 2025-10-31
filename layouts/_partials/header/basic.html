@@ -1,0 +1,59 @@
+<header class="py-6 font-semibold text-neutral-900 dark:text-neutral sm:py-10 print:hidden">
+    <nav class="flex items-start justify-between sm:items-center" id="top-menu">
+        <div class="flex flex-row items-center">
+            {{ partial "logo.html" . }}
+        </div>
+
+        {{/* Hamburger menu */}}
+        <label id="menu-button" for="menu-controller" class="block sm:hidden">
+            <input type="checkbox" id="menu-controller" class="hidden"/>
+            <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
+                {{ partial "icon.html" "bars" }}
+            </div>
+            <div
+                    id="menu-wrapper"
+                    class="invisible fixed inset-0 z-30 m-auto h-full w-full cursor-default overflow-auto bg-neutral-100/50 opacity-0 backdrop-blur-sm transition-opacity dark:bg-neutral-900/50"
+            >
+                <ul
+                        class="mx-auto flex w-full max-w-7xl list-none flex-col overflow-visible px-6 py-6 text-end sm:px-14 sm:py-10 sm:pt-10 md:px-24 lg:px-32"
+                >
+                    <li class="mb-1">
+              <span class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400"
+              >{{ partial "icon.html" "xmark" }}</span
+              >
+                    </li>
+                    <li class="group mb-1">
+                        <a href="/aleatoire"
+                           class="group-dark:hover:text-primary-400 transition-colors group-hover:text-primary-600"
+                        >
+                            Voir un article aléatoire
+                        </a>
+                    </li>
+                    <li class="group mb-1">
+                        <a href="/a-propos"
+                           class="group-dark:hover:text-primary-400 transition-colors group-hover:text-primary-600"
+                        >
+                            À propos
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </label>
+        <ul class="hidden list-none flex-row text-end sm:flex top-main-menu">
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
+                <a href="/aleatoire"
+                   class="group-dark:hover:text-primary-400 transition-colors group-hover:text-primary-600"
+                >
+                    Voir un article aléatoire
+                </a>
+            </li>
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
+                <a href="/a-propos"
+                   class="group-dark:hover:text-primary-400 transition-colors group-hover:text-primary-600"
+                >
+                    À propos
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>

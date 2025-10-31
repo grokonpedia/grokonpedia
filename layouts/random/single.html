@@ -1,0 +1,16 @@
+{{ define "main" }}
+
+Cette page va vous rediriger vers un article aléatoire de Grokonpedia.
+
+<script>
+const slugs = [
+{{ range where .Site.RegularPages.ByTitle "Type" "wiki" }}
+    "{{ .RelPermalink }}",
+{{ end }}
+];
+
+const randomSlug = slugs[~~(Math.random() * slugs.length)];
+location.href = randomSlug;
+</script>
+
+{{ end }}

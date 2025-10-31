@@ -3,6 +3,24 @@
     src: URL('/SourceSerif4-Regular.ttf') format('truetype');
 }
 
+:root {
+    --color-primary-500: 30, 30, 30;
+    --color-primary-600: 30, 30, 30;
+}
+
+.dark {
+    --color-primary-500: 170, 170, 170;
+    --color-primary-600: 170, 170, 170;
+}
+
+.prose {
+    --tw-prose-links: rgb(50, 50, 50);
+}
+
+.dark .prose {
+    --tw-prose-links: rgb(200, 200, 200);
+}
+
 .version {
     background: rgba(0, 0, 0, 0.2);
     border-radius: 20px;
@@ -24,10 +42,24 @@ h1, h2, h3 {
     font-size: 0.85rem;
 }
 
+#TableOfContents a:hover {
+    background: none;
+    color: var(--color-primary-500);
+}
+
 .fact-checked {
     opacity: 0.5;
     font-size: 0.8rem;
     display: block;
     margin-bottom: 0.5rem;
     filter: grayscale(100%);
+}
+
+.header-random-link {
+    margin-left: auto;
+}
+
+.top-main-menu a {
+    font-size: 0.85rem;
+    color: rgb(var(--color-neutral-500));
 }

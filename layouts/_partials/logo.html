@@ -1,3 +1,4 @@
+<span>
 <link href="/custom.css" rel="stylesheet" />
 
 {{- if .Site.Params.header.showTitle | default true }}
@@ -8,3 +9,4 @@
 >{{ .Site.Title | markdownify | emojify }}</a
         > <small class="version">v{{ math.Rand | mul 20 | truncate 6 "" }}</small>
 {{- end }}
+</span>
