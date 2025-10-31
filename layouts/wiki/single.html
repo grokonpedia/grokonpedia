@@ -50,6 +50,12 @@
         {{ partial "author.html" . }}
         {{ partial "sharing-links.html" . }}
         {{ partial "article-pagination.html" . }}
+
+        <ul class="article-links">
+            <li><a href="/aleatoire">Voir un autre article aléatoire</a></li>
+            <li><a href="https://fr.wikipedia.org/wiki/{{ .Params.wiki_slug }}" target="_blank">Voir cet article sur wikipedia</a></li>
+        </ul>
+
         {{ if .Params.showComments | default (.Site.Params.article.showComments | default false) }}
         {{ if templates.Exists "_partials/comments.html" }}
         <div class="pt-3">
