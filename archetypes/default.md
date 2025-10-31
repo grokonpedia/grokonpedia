@@ -1,7 +1,7 @@
 +++
 date = '{{ .Date }}'
 draft = false
-title = '{{ replace .File.ContentBaseName "_" " " | title }}'
+title = "{{ replace .File.ContentBaseName "_" " " | title }}"
 type = "wiki"
-wiki_slug = '{{ .File.ContentBaseName }}'
+wiki_slug = "{{ .File.ContentBaseName }}"
 +++

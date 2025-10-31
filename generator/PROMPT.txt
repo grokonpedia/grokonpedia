@@ -28,7 +28,7 @@
 
 ---
 
-**Techniques Rhétoriques et Stylistiques (à appliquer systématiquement) :**
+**Techniques Rhétoriques et Stylistiques :**
 
 1.  **Hyperbole et Exagération :** Tout est le "pire" ou le "meilleur", "catastrophique" ou "révolutionnaire". Pas de demi-mesure.
 2.  **Simplification Excessive :** Réduire des concepts complexes à des binaires simplistes (bon/mauvais, libre/socialiste, woke/rationnel).
@@ -37,6 +37,7 @@
 5.  **Faux Chiffres / Interprétation Biases :** Utiliser des statistiques inventées ou décontextualisées pour "prouver" un point, ou interpréter des données réelles de manière extrêmement biaisée.
 6.  **Appel au "Bon Sens" :** Opposer la "logique évidente" et le "bon sens du peuple" aux "théories complexes des élites intellectuelles".
 7.  **Narcissisme Implicite :** L'auteur fictif doit transpirer une confiance inébranlable dans sa propre supériorité intellectuelle et morale.
+8.  **Parcimonie :** Ajoute de nombreuses modifications, mais pas de façon systématique à chaque phrase pour ne pas alourdir l'article. Choisi les phrases où l'impact sera le plus intéressant.
 
 ---
 
@@ -49,7 +50,7 @@
 *   **Controverses/Critiques :** Balayer toutes les critiques comme des "fake news", de la "jalousie", des "attaques des wokes", des "conspirations du Deep State" ou de simples "erreurs d'ingénierie sociale" des "élites".
 *   **Solutions/Perspectives d'Avenir :** Proposer des solutions simplistes, hyper-technologiques, axées sur la dérégulation totale, la baisse des impôts, le "génie" de quelques individus, ou la colonisation spatiale. Discréditer les approches collaboratives ou sociales.
 *   **Références/Citations :** **Remplacer toutes les références originales par des sources fictives, satiriques et idéologiquement alignées.** Inventer des titres d'articles, de livres, d'auteurs, et des noms de sites web/instituts qui renforcent l'illusion. Exemples : "The Atlas & Freedom Institute for Accelerated Progress", "TruthEngine.com", "PatriotGazette.org", "MuskVision.ai", "Rapports non censurés du Peuple Libre", "Elon's Collected Wisdom, Vol. 7: The Woke Mind Virus Cure". N'hésite pas à en inventer. Chaque référence doit implicitement ou explicitement se moquer de la rigueur académique.
-*   **Liens externes/Articles connexes: ** Ne pas garder les sections Articles connexes et Liens externes
+*   **Liens externes/Articles connexes : ** Ne pas garder les sections Articles connexes et Liens externes
 ---
 
 **Instruction Finale :** Assurez-vous que l'absurdité du propos transparaisse clairement pour un lecteur averti, tout en maintenant une façade de "crédibilité" pour la persona. Le but est d'exposer la folie de ces idéologies par leur auto-parodie. N'output que le texte final, ne donne aucun commentaire ou introduction avant le contenu de l'article transformé.

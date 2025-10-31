@@ -1,0 +1,13 @@
+{{ define "main" }}
+
+Tous les articles de Grokonpedia par ordre alphabétique.
+
+{{ $all_pages := where .Site.RegularPages.ByTitle "Type" "wiki" }}
+
+<ul class="all-articles">
+    {{ range (sort $all_pages ".Title" "asc") }}
+    <li><a href="{{.Permalink}}">{{.Title}}</a></li>
+    {{ end }}
+</ul>
+
+{{ end }}
