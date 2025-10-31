@@ -1,6 +1,7 @@
 +++
 draft = false
 title = "À propos"
+description = "Plus d'informations sur Grokonpedia."
 +++
 
 Grokonpedia est un site satirique, créé après la publication de Grokipedia par xAI, une société d'Elon Musk. Grokipedia s'inspire très fortement de Wikipedia, mais en modifiant les articles pour qu'ils correspondent à la philosophie nauséabonde du multi-milliardaire.

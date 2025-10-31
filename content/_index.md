@@ -1,6 +1,7 @@
 +++
 draft = false
 title = "Grokonpedia"
+description = "Grokipedia est trop woke, venez trouver la vraie vérité sur Grokonpedia."
 +++
 
 *Une encyclopédie avec des articles non-biaisés et moins wokes que sur Grokipedia, vous ne trouverez ici que la vérité sans filtre.*
