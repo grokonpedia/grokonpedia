@@ -6,11 +6,15 @@
 :root {
     --color-primary-500: 30, 30, 30;
     --color-primary-600: 30, 30, 30;
+    --color-primary-700: 200, 200, 200;
+    --color-primary-800: 50, 50, 50;
 }
 
 .dark {
     --color-primary-500: 170, 170, 170;
     --color-primary-600: 170, 170, 170;
+    --color-primary-700: 100, 100, 100;
+    --color-primary-800: 50, 50, 50;
 }
 
 .prose {
