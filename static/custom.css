@@ -97,3 +97,14 @@ h1, h2, h3 {
     padding-left: 1rem;
     margin-top: 2.5rem;
 }
+
+body.splash {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+    text-align: center;
+    box-sizing: border-box;
+}

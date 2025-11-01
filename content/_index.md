@@ -1,14 +1,6 @@
 +++
 draft = false
 title = "Grokonpedia"
-description = "Grokipedia est trop woke, venez trouver la vraie vérité sur Grokonpedia."
 +++
 
-*Une encyclopédie avec des articles non-biaisés et moins wokes que sur Grokipedia, vous ne trouverez ici que la vérité sans filtre.*
-
-{{< button href=/aleatoire >}}Voir un article aléatoire{{</ button >}}
-{{< button href=/tous-les-articles >}}Voir la liste de tous les articles{{</ button >}}
-
-## Derniers articles
-
-{{< last >}}
+Elon Musk est une petite merde.
